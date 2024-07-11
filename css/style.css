@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #0c0c0c;
+  --secondaryColor: #c52b04;
+  --tertiaryColor: #9b3922;
+  --quaternaryColor: rgba(53, 53, 53, 0.30);
+  --white: rgba(255, 255, 255, 0.25);
+}
+/*LARGEUR*/
+.large-1 {
+  width: calc(8.3333333333% - 14.6666666667px);
+}
+.large-2 {
+  width: calc(16.6666666667% - 13.3333333333px);
+}
+.large-3 {
+  width: calc(25% - 12px);
+}
+.large-4 {
+  width: calc(33.3333333333% - 10.6666666667px);
+}
+.large-5 {
+  width: calc(41.6666666667% - 9.3333333333px);
+}
+.large-6 {
+  width: calc(50% - 8px);
+}
+.large-7 {
+  width: calc(58.3333333333% - 6.6666666667px);
+}
+.large-8 {
+  width: calc(66.6666666667% - 5.3333333333px);
+}
+.large-9 {
+  width: calc(75% - 4px);
+}
+.large-10 {
+  width: calc(83.3333333333% - 2.6666666667px);
+}
+.large-11 {
+  width: calc(91.6666666667% - 1.3333333333px);
+}
+.large-12 {
+  width: calc(100% - 0px);
+}
+@media all and (max-width: 700px) {
+  .medium-1 {
+    width: calc(8.3333333333% - 14.6666666667px);
+  }
+  .medium-2 {
+    width: calc(16.6666666667% - 13.3333333333px);
+  }
+  .medium-3 {
+    width: calc(25% - 12px);
+  }
+  .medium-4 {
+    width: calc(33.3333333333% - 10.6666666667px);
+  }
+  .medium-5 {
+    width: calc(41.6666666667% - 9.3333333333px);
+  }
+  .medium-6 {
+    width: calc(50% - 8px);
+  }
+  .medium-7 {
+    width: calc(58.3333333333% - 6.6666666667px);
+  }
+  .medium-8 {
+    width: calc(66.6666666667% - 5.3333333333px);
+  }
+  .medium-9 {
+    width: calc(75% - 4px);
+  }
+  .medium-10 {
+    width: calc(83.3333333333% - 2.6666666667px);
+  }
+  .medium-11 {
+    width: calc(91.6666666667% - 1.3333333333px);
+  }
+  .medium-12 {
+    width: calc(100% - 0px);
+  }
+}
+@media all and (max-width: 400px) {
+  .small-1 {
+    width: calc(8.3333333333% - 14.6666666667px);
+  }
+  .small-2 {
+    width: calc(16.6666666667% - 13.3333333333px);
+  }
+  .small-3 {
+    width: calc(25% - 12px);
+  }
+  .small-4 {
+    width: calc(33.3333333333% - 10.6666666667px);
+  }
+  .small-5 {
+    width: calc(41.6666666667% - 9.3333333333px);
+  }
+  .small-6 {
+    width: calc(50% - 8px);
+  }
+  .small-7 {
+    width: calc(58.3333333333% - 6.6666666667px);
+  }
+  .small-8 {
+    width: calc(66.6666666667% - 5.3333333333px);
+  }
+  .small-9 {
+    width: calc(75% - 4px);
+  }
+  .small-10 {
+    width: calc(83.3333333333% - 2.6666666667px);
+  }
+  .small-11 {
+    width: calc(91.6666666667% - 1.3333333333px);
+  }
+  .small-12 {
+    width: calc(100% - 0px);
+  }
+}
+/*GENERALITE*/
+body{
+  background-image: url("/img/rage-clash.jpg");
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--secondaryColor);
+  font-size: 3em;
+}
+label {
+  font-size: 1.2rem;
+}
+a:visited {
+  color: inherit;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--quaternaryColor);
+  color: white;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: var(--tertiaryColor);
+  color: white;
+  transform: scale(1.05);
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.item-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-arround {
+  justify-content: space-around;
+}
+.direction-column {
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+.container-1440 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.padding10 {
+  padding: 10px;
+}
+.margin-top5 {
+  margin-top: 5%;
+}
+.margin-bottom5 {
+  margin-bottom: 5%;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.marge-auto {
+  margin: 0 auto;
+}
+.gap10{
+  gap: 10px;
+}
+/*HEADER*/
+header {
+  background-color: var(--primaryColor);
+  padding: 20px 0;
+  height: 10vh;
+}
+/*CONNEXION.PHP*/
+.login {
+  background-color: var(--quaternaryColor);
+  color: var(--secondaryColor);
+  border-radius: 20px;
+  padding: 50px;
+}
+.login div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login label {
+  display: block;
+  margin-bottom: 10px;
+}
+.login input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--white);
+}
+.login input[type="submit"] {
+  width: fit-content;
+  margin: 5% auto 0 auto;
+  transition: all 0.3s ease;
+}
+.login input[type="submit"]:hover {
+  transform: scale(1.05);
+  background-color: var(--secondaryColor);
+  color: var(--white);
+}
+#afficher:hover {
+  cursor: pointer;
+}
+.add a {
+  color: blue;
+  text-decoration: dashed;
+}
+/*INSCRIPTION.PHP*/
+.inscription {
+  background-color: var(--quaternaryColor);
+  color: white;
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 5%;
+}
+.inscription div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.inscription label {
+  display: block;
+  margin-bottom: 10px;
+}
+.inscription input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--white);
+}
+.inscription input[type="submit"] {
+  width: fit-content;
+  margin: 5% auto 0 auto;
+  transition: all 0.3s ease;
+}
+.inscription input[type="submit"]:hover {
+  transform: scale(1.05);
+  background-color: var(--secondaryColor);
+  color: var(--white);
+}
+.inscription h2 {
+  margin-bottom: 30px;
+}
+.inscription p {
+  letter-spacing: 1px;
+}
+.inscription span {
+  font-size: 0.8rem;
+}
+#show,
+#show-review {
+  cursor: pointer;
+}
+.pts {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 40px;
+}
+/*VUE_ACCUEIL_JEU.PHP*/
+/*MENU JOUEUR*/
+.menu-joueur {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  padding: 30px;
+  height: 90vh;
+  justify-content: space-between;
+}
+.menu-joueur h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.menu-joueur p,
+.menu-joueur label {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.bar-progress {
+  background-color: var(--quaternaryColor);
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+.bar-progress progress {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.deconnexion {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: #fff;
+}
+.deconnexion a {
+  text-decoration: none;
+  color: white;
+}
+.echange{
+  background-color: var(--quaternaryColor);
+  border-radius: 10px;
+  width: 200px;
+}
+.echange p{
+  padding: 10px;
+}
+.echange img{
+  width: 50px;
+}
+/*HISTORIQUE*/
+.historique {
+  background-color: var(--quaternaryColor);
+  border-radius: 10px;
+  padding: 10px;
+  overflow-x: scroll;
+}
+.salle{
+  background-color: var(--quaternaryColor);
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.box-historique{
+  background-color: var(--quaternaryColor);
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.salle p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.jeu img {
+  width: 24px;
+}
+.card-historique{
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+/*PLATEAU-JEU*/
+.jeu {
+  background-color: var(--quaternaryColor);
+}
+.jeu p {
+  color: #0c0c0c;
+}
+.jeu h5 {
+  font-size: 2rem;
+  text-align: center;
+}
+.salle-jeu{
+  position: relative;
+  height: 50vh;
+  background-color: var(--quaternaryColor);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+#suivant,#precedente{
+  padding: 5px 10px;
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 10px;
+}
+#suivant p,#precedente p{
+  font-size: 20px;
+}
+.color{
+  background-color: gray;
+}
+.fleche-droite{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fleche-droite p{
+  color: #ffffff;
+  font-size: 2rem;
+}
+.fleche-gauche{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fleche-gauche p{
+  color: #ffffff;
+  font-size: 2rem;
+}
+.plateau-jeu{
+  background-color: rgba(255, 255, 255, 0.05);
+  height: 48vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.plateau-jeu p{
+  font-size: 2rem;
+  color: var(--secondaryColor);
+  letter-spacing: 1px;
+}
+.adversaire{
+  cursor: pointer;
+}
